@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex independent agent /root/audit_shortlist; AI assisted, not independent human review",
+  "runtime_lines": 553,
+  "source_tests": 38,
+  "independent_controls": 62,
+  "platform_controls": 3,
+  "observed_API_activity": [],
+  "input_hash_unchanged": true,
+  "finding": "O_NONBLOCK platform gate corrected; generated cache excluded from formal inventory",
+  "whole_upstream_read": "Root full selected41 files; independent agent fixed identities all41, selected branch spot read",
+  "full_new_source_docs_tests_build_CI_licenses": "Root author and independent AI agent",
+  "original_independent_report_sha256": "6021cae8314e650698d9004e1f0de321408af97679275dd29721182a5e184129",
+  "original_independent_harness_sha256": "725ead90fa218736f3b6a8388805a9d8a28b3fb44a11fbdfaa1f02800c9b592e",
+  "package_proof": "Separate parent engineering ledger after final build; not implied by source review",
+  "permanently_open": [
+    "inventory_authenticity",
+    "dependency_graph_completeness",
+    "npm_operation_schedule",
+    "script_safety",
+    "actual_enforcement",
+    "cvp_eligibility"
+  ],
+  "independent_review_runtime_lines": 551,
+  "post_review_delta": "O_NONBLOCK capability condition formatted over3 lines; no semantic change. Parent re-read formatted condition."
+}

@@ -1,0 +1,167 @@
+{
+  "project": "LifecyclePolicyReview",
+  "version": "0.1.0",
+  "author_review": "PASS - all new runtime/tests/docs/CLI/package/CI reviewed by Codex root; AI-assisted",
+  "independent_review": "PASS - independent Codex agent, not human review; evidence/independent-review.json",
+  "runtime_files": 9,
+  "runtime_lines": 553,
+  "files_excluding_this_manifest": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1555,
+      "sha256": "de837b434d8dfe2a2e5483185bdd2077e1715a7b499879e50c51b482ac8e50c7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 104,
+      "sha256": "6c2fd72740dd2d920595ec3e6bff1555775306595f4cde93252fdf376e04cf2a"
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "bytes": 4860,
+      "sha256": "b9a20547ddb957b0bc188e68482a1e288172e87c77536edee31d36957334be38"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1096,
+      "sha256": "55aad7e593acf3d2783092ec462a05a7ac8f224028b18d04ec50366052bcc9ac"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 283,
+      "sha256": "88800bad1b3d8249cfc9f08e4bf6f4b2da3115cc958803e377111eda4649929f"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 668,
+      "sha256": "36f59ed1e0453f6bbb98a656cb837bdb7b9b5432957f426ab213f85949587832"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3432,
+      "sha256": "82d8fd40e93dec450330eba6b2d56791a622fc2a31090f131a54b3c0ada6e6cd"
+    },
+    {
+      "path": "SOURCE_REVIEW.json",
+      "bytes": 14194,
+      "sha256": "2202583242d4fc6417436e6336391f3078bdcd6117df94b30e2fe50160218b5e"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 1534,
+      "sha256": "a910f97dfb209651ff810e65486c2f8b52b924b9e8746d094e7ba47ac64cc5ef"
+    },
+    {
+      "path": "evidence/independent-review.json",
+      "bytes": 1304,
+      "sha256": "c1e026280624f5deefa990aea69ef918aead050803a93818019c3a502c9cfca6"
+    },
+    {
+      "path": "evidence/snapshot.json",
+      "bytes": 502,
+      "sha256": "bd61d7b621f83bb1938dba5b64de487cf90377efceee962c6b4c852a31b781ca"
+    },
+    {
+      "path": "licenses/allow-scripts-MIT.txt",
+      "bytes": 1085,
+      "sha256": "13d8f44e0cb7bece1bc47f038504b43cff9b95972428854d2c429a3d7d1a711c"
+    },
+    {
+      "path": "licenses/npm-node-gyp-ISC.txt",
+      "bytes": 746,
+      "sha256": "8da13c785af46eb3d0bf2ce4c34bdf191b8c57bf43e410e9359d5b5eab5f4b0f"
+    },
+    {
+      "path": "licenses/npm-run-script-ISC.txt",
+      "bytes": 739,
+      "sha256": "898c2bcff663681498ad1ca8235d45b6e70b10cdf1f869a5b5e69f6e46efedd3"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 701,
+      "sha256": "1caa925673445d1f1589c769b27dec0464355eb6523d94c6bc055212faced028"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 99,
+      "sha256": "8bf0543e181a4e53135e4ea8dcb0acdd22a116c5c250b6ccf82cc036cfd805cd"
+    },
+    {
+      "path": "scripts/installed_cli_check.py",
+      "bytes": 3524,
+      "sha256": "46cd0f216a9a33f580e953fcbfc90cf3c195890e61aed42db592d4afebc0f33e"
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "bytes": 4750,
+      "sha256": "3fe6fa13cf3a34f9bb65e2f7325e78cb68bab58c1b06ac53e5d786b70f74876e"
+    },
+    {
+      "path": "src/lifecycle_policy_review/__init__.py",
+      "bytes": 177,
+      "sha256": "f39f0d4420d64d75e7401ea8b7967e10567343c4b72fb5bcdefd1e78b15ccdff"
+    },
+    {
+      "path": "src/lifecycle_policy_review/__main__.py",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "src/lifecycle_policy_review/cli.py",
+      "bytes": 1006,
+      "sha256": "70ccf83c68b1a11cc2cddf5f621d3c48540c6b6b901104929167cc35189ecdbd"
+    },
+    {
+      "path": "src/lifecycle_policy_review/entrypoints.py",
+      "bytes": 2647,
+      "sha256": "96a75449a435774197fe146d0a5d370d4e0dd25ca0edb334a5a2d74b1df61db5"
+    },
+    {
+      "path": "src/lifecycle_policy_review/files.py",
+      "bytes": 2708,
+      "sha256": "b73203a39c25cba4e1733e90334eae40e031681bf2bf6ac2397cfd56a74262ad"
+    },
+    {
+      "path": "src/lifecycle_policy_review/json_input.py",
+      "bytes": 2883,
+      "sha256": "ff9f6989f17bb626fe5505e682465d817928048a94aa61bc1926cf050f735880"
+    },
+    {
+      "path": "src/lifecycle_policy_review/model.py",
+      "bytes": 1698,
+      "sha256": "456c3f2703bc2754955d463825e9f49f3125fee5b380f48eff1cbb4c25f1bdf3"
+    },
+    {
+      "path": "src/lifecycle_policy_review/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/lifecycle_policy_review/review.py",
+      "bytes": 4543,
+      "sha256": "d195ee4e5ee9f89dd2ef239dd221dda9aa49bc7f7fc81d3a4a178b45e1f722e3"
+    },
+    {
+      "path": "src/lifecycle_policy_review/schema.py",
+      "bytes": 3958,
+      "sha256": "3d78bd35289f642443a945f39246e65f870ddf81fdff8a60d20f386e0a8aa015"
+    },
+    {
+      "path": "tests/fixtures.py",
+      "bytes": 1078,
+      "sha256": "86d63459abf69c67f3c12a4c5005f20914ac9979147670a249711f8168500533"
+    },
+    {
+      "path": "tests/test_io.py",
+      "bytes": 3111,
+      "sha256": "5bacd9ada1fdf35dc1ecff4d04c29cacabf8492f6e2844a5b8777620840d8cf4"
+    },
+    {
+      "path": "tests/test_review.py",
+      "bytes": 13116,
+      "sha256": "beccbf2eb5c9a0b46d2ff4d879b5eb2631644b2c32b7ce06804a99246da0c35e"
+    }
+  ],
+  "full_upstream_selected_source": "SOURCE_REVIEW.json",
+  "claim_limit": "No human review, upstream contribution, actual enforcement or CVP approval."
+}

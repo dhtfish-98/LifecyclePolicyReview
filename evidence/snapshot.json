@@ -1,0 +1,26 @@
+{
+  "schema": "lifecycle-policy-snapshot-v1",
+  "packages": [
+    {
+      "path": "node_modules/example",
+      "role": "dependency",
+      "binding_gyp": false,
+      "package_json": {
+        "name": "example",
+        "version": "1.0.0",
+        "scripts": {
+          "postinstall": "node build.js"
+        }
+      }
+    }
+  ],
+  "policy": [
+    {
+      "name": "example",
+      "version": "1.0.0",
+      "path": "node_modules/example",
+      "role": "dependency",
+      "allow": false
+    }
+  ]
+}

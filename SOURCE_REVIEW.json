@@ -1,0 +1,386 @@
+{
+  "project": "LifecyclePolicyReview",
+  "source": "lavamoat/lavamoat",
+  "commit": "f93c7e60a7ed5c20b0ec1993604d293cb31a079a",
+  "selected": "packages/allow-scripts selected static policy reimplementation",
+  "fixed_tree_matches": true,
+  "runtime_full_files": 9,
+  "selected_full_files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1085,
+      "lines": 9,
+      "sha256": "13d8f44e0cb7bece1bc47f038504b43cff9b95972428854d2c429a3d7d1a711c",
+      "git_blob": "f793cd198d995c5a1951a793eb63098274ad20b3",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/LICENSE",
+      "bytes": 1085,
+      "lines": 9,
+      "sha256": "13d8f44e0cb7bece1bc47f038504b43cff9b95972428854d2c429a3d7d1a711c",
+      "git_blob": "f793cd198d995c5a1951a793eb63098274ad20b3",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/README.md",
+      "bytes": 6614,
+      "lines": 163,
+      "sha256": "c24764326aafb73b7fc80248cb8655d266db550f2c55650ab2073bb2c1ad42ad",
+      "git_blob": "8ef865b5e3f5e890fe1cd30745e930ce72cd6ada",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/package.json",
+      "bytes": 1387,
+      "lines": 61,
+      "sha256": "e71a03afc08a05ba2a0b154c372b894e9a2b71607254570997cd989056bae3a9",
+      "git_blob": "ca30bbb02a13f77956dec54830a041f8cf1a1817",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/cli.js",
+      "bytes": 2291,
+      "lines": 84,
+      "sha256": "01f6457d69dfa280616b2b137262415704e5cf2551c8d6d75d3a3034f750070c",
+      "git_blob": "ab439d7f1cf6428017390881ab772eec29655c9c",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/config.js",
+      "bytes": 15223,
+      "lines": 523,
+      "sha256": "1bf9e3e7cd505dd11aad901566a73c18faaa14a6078e8f40abf497c79dbd2ea8",
+      "git_blob": "86bc0df6b7d04576cd38564a119abbc488f6c466",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/index.js",
+      "bytes": 596,
+      "lines": 24,
+      "sha256": "5e2de8736572d9e8c4a255a0d92223a30a9c181eef582d3357bb82c815b5a077",
+      "git_blob": "96b4c4852e5afafa3fda67fadf323bdd125f5403",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/linker.js",
+      "bytes": 1306,
+      "lines": 58,
+      "sha256": "3486da49a5e4bbb46ca091c81e7d18c1d5cf34f5e3a6b6e9fcbf6ef8dff8a322",
+      "git_blob": "9f26f5823e5d7a22c3d5a637db5f6869d0b78b85",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/report.js",
+      "bytes": 5353,
+      "lines": 210,
+      "sha256": "1ce5e4b310303f0c74ba12989e17755e8326d1ee7eb024cd569880d1a65d98df",
+      "git_blob": "6c29f1505c40cda328f3787d1303bbfecd53d151",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/runAllowedPackages.js",
+      "bytes": 4616,
+      "lines": 151,
+      "sha256": "8a14fcd4af186a2298e0b04c6a0cc6c7bbe362e40cf6c3705352366147fa0a67",
+      "git_blob": "088d913c9de36d728c87a8feea847cfa31c4d914",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/setup.js",
+      "bytes": 4771,
+      "lines": 197,
+      "sha256": "47babf7d5bbc11cef52aff7063f9e0f4c701909958fcffed4ed2d6901c0b0e12",
+      "git_blob": "3a1dab4ca3fdb55cbb8e508ff5d04a43d9c38a6a",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/toggles.js",
+      "bytes": 69,
+      "lines": 5,
+      "sha256": "d193a9d917a79d61429e7051e8347a1dc2a1fa3d190b8f3c506b48eab24b10d7",
+      "git_blob": "5807a5ba32529336d4e12be039ed7daab1204b55",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/types/common.ts",
+      "bytes": 2640,
+      "lines": 119,
+      "sha256": "37c2a307563988b1c62f7d3b2809b5eec1bfba024d100b31c0c7712b39019fc0",
+      "git_blob": "8bd16cd0386b584fda332898a0f66edd93750602",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/src/whichbin.js",
+      "bytes": 1296,
+      "lines": 46,
+      "sha256": "455ec3d7d958af598b58eb52d6aa117b1aaeb88341c93342bc3aebaec2499831",
+      "git_blob": "8a3eb7b27e27ef06e4086964f4d3f15f5090c4c3",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/config.spec.js",
+      "bytes": 1841,
+      "lines": 60,
+      "sha256": "b0f64dd0ec40ffdee44fe2a06f16d244f3b64249b450548ae75d1d9f59bc99f3",
+      "git_blob": "94409e8f63ba83ea7ac857ada15358b0654cc1c0",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/index.spec.js",
+      "bytes": 14179,
+      "lines": 504,
+      "sha256": "8a7da964293de0831e7db789d7258f932c16bd298ade67caf9302e58d0f32d2e",
+      "git_blob": "f39b139f44960037d0315ff2e410d2a42b3af89a",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/prepare.js",
+      "bytes": 911,
+      "lines": 28,
+      "sha256": "e07249458b064182d845b4f0538b28e8da68349cdb5cee1144692e951826ab1b",
+      "git_blob": "545c3f353a1e9baf05cd990d25da64c8577ae96c",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/1/node_modules/aaa/package.json",
+      "bytes": 238,
+      "lines": 13,
+      "sha256": "713d3e85187dd3b4d816406eb7192265c32d777d380331d6eb752aed45456e76",
+      "git_blob": "ba321944cb1bd0762d1e7d14c31d6f536ad1d2c6",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/1/node_modules/bbb/node_modules/evil_dep/package.json",
+      "bytes": 275,
+      "lines": 16,
+      "sha256": "e5fd153d9e5942e9d215c5f2bcbb87f235e017a7c16dd91e4cb4cd7ff3886f01",
+      "git_blob": "d1ed7361a55aa5196bdd804b49aeadfd41d2ab0d",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/1/node_modules/bbb/package.json",
+      "bytes": 310,
+      "lines": 18,
+      "sha256": "d97ea293adc472f85846360108d8a1200475a74b5bbca426db0f0cc8a0700588",
+      "git_blob": "f0273debe538a2458e933d6a4c60a9f47a3e8592",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/1/package.json",
+      "bytes": 415,
+      "lines": 23,
+      "sha256": "3a0abecda925d17976ffebed8bdc9a39b35fa94ffb0deaaa997efc5a294db49d",
+      "git_blob": "8b0b1c809b3b1805546989f14959678256c476b0",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/2/node_modules/aaa/package.json",
+      "bytes": 240,
+      "lines": 13,
+      "sha256": "a3abc7e145b5c1cd1cb3af0ef810ceeff517876941d23ca13755e30a0df99786",
+      "git_blob": "eb0f24ab36a2d88cd66a92afa7ff1ca479f4d81c",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/2/node_modules/bbb/node_modules/evil_dep/package.json",
+      "bytes": 241,
+      "lines": 13,
+      "sha256": "7e2b93f15be4a5cfb738c47b561325d2863e93fd88abd6cf63b18a0ac99db3cc",
+      "git_blob": "5eb96772e2923d00bc41bdf9846469594c5a5166",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/2/node_modules/bbb/package.json",
+      "bytes": 292,
+      "lines": 16,
+      "sha256": "45152a0a0f218d395782245ee012f6f619d69c68c9b6fb07c662cc6844c1c1f6",
+      "git_blob": "a1f466a05e9d027fbd03fd52c6b44a5488c6be37",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/2/node_modules/good_dep/package.json",
+      "bytes": 301,
+      "lines": 16,
+      "sha256": "4f21f10e0d0f2b6f215b9fe9c22e8447d1f7d5101a97c40974406b6a3f81e352",
+      "git_blob": "1fdb651fafd9788864c096db8266e29d830ad2af",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/2/package.json",
+      "bytes": 518,
+      "lines": 27,
+      "sha256": "fca020dc8fada219599c327e86420e21dec22006a422b9819ff19c23237b17c4",
+      "git_blob": "1fdb657a1b7ce0dd6ff704cb2720a94787220f4c",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/3/node_modules/aaa/package.json",
+      "bytes": 263,
+      "lines": 15,
+      "sha256": "1a8d5fd03b52686dc5e14bf1c0ce9064fb0df876d8ea9734dc344969d81dde70",
+      "git_blob": "caabb2867d5ed040c17992b0d2929568925f2315",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/3/node_modules/bbb/node_modules/good_dep/package.json",
+      "bytes": 299,
+      "lines": 16,
+      "sha256": "369834adc73a879897ddde3fd79624f60ca38a704951f075cd95db09a06287c4",
+      "git_blob": "30944e62707ab9a1a70ccd6b50a3f728d5ca2eb6",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/3/node_modules/bbb/package.json",
+      "bytes": 333,
+      "lines": 17,
+      "sha256": "471b40c2d4f7a7b1b356aae10d5d2c3cc9022f31d6433c68242598d0afa76b85",
+      "git_blob": "4179673a547792f23b379915e5e0ed9d35c9508d",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/3/node_modules/evil_dep/package.json",
+      "bytes": 275,
+      "lines": 16,
+      "sha256": "e5fd153d9e5942e9d215c5f2bcbb87f235e017a7c16dd91e4cb4cd7ff3886f01",
+      "git_blob": "d1ed7361a55aa5196bdd804b49aeadfd41d2ab0d",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/3/package.json",
+      "bytes": 505,
+      "lines": 28,
+      "sha256": "d4b72f7f7b03f4b90c90c579613fd644860a8c5ab346dce48ca5a87168170e67",
+      "git_blob": "88e3acaeb6a50943aaad81b2757c89f6ff220265",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/4/node_modules/disabled_native_dep/package.json",
+      "bytes": 233,
+      "lines": 12,
+      "sha256": "8deb6dc794dca62be010da0c41cbaea86f7faa7b12c120ae4bd6b226d8d54a18",
+      "git_blob": "6365cb573783b8d65ab83467b7d0f0b635d4c8d4",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/4/node_modules/native_dep/package.json",
+      "bytes": 224,
+      "lines": 12,
+      "sha256": "e261563924802bc09f82b3b8eb6de282e3950c3d872cbe48bd1aa57a3c5f8851",
+      "git_blob": "8f29682bfc72769107a9575e1ad0230aa91e88a6",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/4/package.json",
+      "bytes": 451,
+      "lines": 23,
+      "sha256": "9cedc4df66061da1e2a49690dc44e0141882894e183a374e04a14eeb0c6ac43b",
+      "git_blob": "e0772fd1d90975aace4ab6bf8259caf020f6e8d8",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/5/node_modules/aaaa/package.json",
+      "bytes": 200,
+      "lines": 12,
+      "sha256": "99c52b0ac1f734ca2c15348ccaa4892d50405a8b492257507e39459c340a5f0b",
+      "git_blob": "e5e5bd615f2fafea297f9dba46211848095b21b6",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/5/node_modules/bbbb/package.json",
+      "bytes": 200,
+      "lines": 12,
+      "sha256": "17660f683d9e4125551ec770471805d2d39bd697af9e7f35b8ee6aaf687abaf9",
+      "git_blob": "f70e7880f27e5406df17a455c25ba53359ad560b",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/5/package.json",
+      "bytes": 359,
+      "lines": 21,
+      "sha256": "6b01745282a5c51b84bff7a58f21af192885dfb7d7ab91e3dd9839d69962cf75",
+      "git_blob": "8d0d409830212bba2dc11c2da9406a5a80866f94",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/skip_versions/node_modules/aaaa/package.json",
+      "bytes": 200,
+      "lines": 12,
+      "sha256": "99c52b0ac1f734ca2c15348ccaa4892d50405a8b492257507e39459c340a5f0b",
+      "git_blob": "e5e5bd615f2fafea297f9dba46211848095b21b6",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/skip_versions/node_modules/bbbb/package.json",
+      "bytes": 200,
+      "lines": 12,
+      "sha256": "17660f683d9e4125551ec770471805d2d39bd697af9e7f35b8ee6aaf687abaf9",
+      "git_blob": "f70e7880f27e5406df17a455c25ba53359ad560b",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/projects/skip_versions/package.json",
+      "bytes": 318,
+      "lines": 20,
+      "sha256": "6a0b53026b77742e6fa9d9453eb8803caaec70cf679fb2b96a11dbc15df5af64",
+      "git_blob": "ea855f4c3142bed7c5f3e2488e3bbb09ccd745ea",
+      "full_read": true
+    },
+    {
+      "path": "packages/allow-scripts/test/utils.js",
+      "bytes": 621,
+      "lines": 24,
+      "sha256": "30db4d2d75b79eb04a19865dbd03d5eafa65f46b3b29acebfa087b83a9360f2d",
+      "git_blob": "d475e1bf6cad144f7f7e2ffd8c2666f4fe120c11",
+      "full_read": true
+    }
+  ],
+  "selected_license_full_read": true,
+  "excluded": "Other LavaMoat packages and sandbox runtime; selected upstream execution/install/write/bin mechanisms reviewed but removed. No upstream code executed.",
+  "reviewer": "Codex root, AI-assisted; not independent human authorship",
+  "additional_reference_full_selected_files": [
+    {
+      "repo": "npm/run-script",
+      "commit": "08ad35e66f0d09ed7a6b85b9a457e54859b70acd",
+      "path": "lib/run-script-pkg.js",
+      "bytes": 2977,
+      "sha256": "94dea9ff50028869f4f88c4ec5e520d56fa7c2f6cc03422a9f06c44d291a0c34"
+    },
+    {
+      "repo": "npm/run-script",
+      "commit": "08ad35e66f0d09ed7a6b85b9a457e54859b70acd",
+      "path": "package.json",
+      "bytes": 1334,
+      "sha256": "dad6d6954819d62761c3e197117a55d0445c04e292e8ff057e7c3ac318bdfb1c"
+    },
+    {
+      "repo": "npm/run-script",
+      "commit": "08ad35e66f0d09ed7a6b85b9a457e54859b70acd",
+      "path": "LICENSE",
+      "bytes": 739,
+      "sha256": "898c2bcff663681498ad1ca8235d45b6e70b10cdf1f869a5b5e69f6e46efedd3"
+    },
+    {
+      "repo": "npm/node-gyp",
+      "commit": "201dddb853f8cf96b0d89e461ada6ee8fdf202a4",
+      "path": "lib/index.js",
+      "bytes": 349,
+      "sha256": "0208905f53bda93670e98e3ee145ad9f87469d9375001f7f913c99b8ef25c228"
+    },
+    {
+      "repo": "npm/node-gyp",
+      "commit": "201dddb853f8cf96b0d89e461ada6ee8fdf202a4",
+      "path": "LICENSE",
+      "bytes": 746,
+      "sha256": "8da13c785af46eb3d0bf2ce4c34bdf191b8c57bf43e410e9359d5b5eab5f4b0f"
+    },
+    {
+      "repo": "npm/node-gyp",
+      "commit": "201dddb853f8cf96b0d89e461ada6ee8fdf202a4",
+      "path": "package.json",
+      "bytes": 1143,
+      "sha256": "027954f089896319a79ec6c33edcb51f0081b38e14b84a95ebf15db4e2bb8b0d"
+    }
+  ],
+  "additional_reference_full_read": true
+}
