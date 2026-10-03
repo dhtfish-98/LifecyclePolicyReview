@@ -1,7 +1,7 @@
 # LifecyclePolicyReview
 
 
-New implementation author: **dhtfish98**. Current project version: **0.1.2**.
+New implementation author: **dhtfish98**. Current project version: **0.1.3**.
 
 Offline **allow-scripts selected static policy reimplementation**. A byte-bounded,
 caller-supplied snapshot contains package.json objects, explicit instance paths,

@@ -1,3 +1,15 @@
+# Current delivery validation — 0.1.3
+
+New implementation author and maintainer: dhtfish98. This patch replaces one auxiliary review role description with "Repository maintainer and automated review agent". It retains the statement that automated review does not establish independent human review. Source provenance, actual third-party rights and all parser/policy behavior are retained; runtime changes only advance version metadata.
+
+The current source suite passes 42 tests on Python 3.14/macOS. Fresh wheel and source-archive consumers must pass the same current suite and installed CLI controls before local delivery is accepted. Exact source, artifact, installed-origin, RECORD and retained-notice evidence is recorded separately; this document contains no recursive package hashes.
+
+This version has no matching published commit or hosted CI result at local preparation. Those gates, independent human contribution, applicant identity/authorization and CVP admission remain OPEN.
+
+## Historical previous delivery evidence
+
+The following sections retain their original version-specific measurements. They do not establish verification of this patch.
+
 # Current delivery validation — 0.1.2
 
 New implementation author and maintainer: dhtfish98. This patch removes only source-reference or unbundled-dependency notice copies identified as unused. Licenses/notices associated with redistributed material and specific OPEN applicability questions are retained byte-for-byte. The new own runtime differs only in version metadata; parser and policy behavior are unchanged.
