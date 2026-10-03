@@ -1,15 +1,15 @@
 {
   "schema": "current-formal-source-manifest/v1",
   "project": "LifecyclePolicyReview",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "new_implementation_author": "dhtfish98",
   "new_implementation_maintainer": "dhtfish98",
-  "baseline_commit": "93420722273f5156667318e5dc462dcb1027abfc",
-  "runtime_review": "All own runtime files read; test files inspected for scope and executed. Upstream review remains bounded as stated in ORIGIN.md.",
+  "baseline_commit": "468ca888bf90054b47b72a259567ad6d1b3806bf",
+  "runtime_review": "Own runtime unchanged except existing version metadata; current source/package inventories and required notice bytes checked. Upstream read scope remains bounded in ORIGIN.md.",
   "files": [
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "2cca0254e50c6c78869974b1038d2e24f2e1f766b870c80a066292667446906e",
+      "sha256": "79b5184c96ae2835138aa3afee090b41d2555bd72169bc313f01f27392b13779",
       "bytes": 1555,
       "lines": 36
     },
@@ -33,26 +33,26 @@
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "e3a729930b8a87ab21fcf7085a1b9ef8de437ec4b37af9ed8bb1417c51441a59",
-      "bytes": 1511,
-      "lines": 42
+      "sha256": "ef2798042195b44a9c3132b722d231602161a325e4aad09308527411b90ac74b",
+      "bytes": 1361,
+      "lines": 38
     },
     {
       "path": "NOTICE",
-      "sha256": "6c624d68c62e9f4c52463152a56cc3f2b1e301796303a02543e7366c6547e20d",
-      "bytes": 761,
-      "lines": 7
+      "sha256": "bbb5abb1109cb7aaea18ba8e82827a0e4712be0c6a6a6c5689b8f517727faeab",
+      "bytes": 534,
+      "lines": 9
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "d40732bf5c54787e9af45c82e27abc6906e59f77fc56345dbb8c468456c572e4",
-      "bytes": 520,
-      "lines": 3
+      "sha256": "892a92dee08df9fa4a6ffb10bed65bca3e962bad2f0c09c2ffbc350914b66c5e",
+      "bytes": 1086,
+      "lines": 7
     },
     {
       "path": "README.md",
-      "sha256": "0bb837dd614e4491c3bbd541144062873953363655538521b8d479a3d7b48775",
-      "bytes": 3795,
+      "sha256": "6d2de014520227af2293ec87ec70e1d3dbae65bd34dcfbec8af9dc8c18856ff7",
+      "bytes": 3830,
       "lines": 92
     },
     {
@@ -69,9 +69,9 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "2836b37f65e63ef56bd84a16eed76cb31216ba5151e5d1f7e5d22f554bfc9485",
-      "bytes": 2796,
-      "lines": 38
+      "sha256": "b1921607dc9d584b29cf46ef0dfe16de73f96e85d59bdef9bce06ff1b7aee058",
+      "bytes": 4001,
+      "lines": 50
     },
     {
       "path": "evidence/independent-review.json",
@@ -86,27 +86,9 @@
       "lines": 26
     },
     {
-      "path": "licenses/allow-scripts-MIT.txt",
-      "sha256": "13d8f44e0cb7bece1bc47f038504b43cff9b95972428854d2c429a3d7d1a711c",
-      "bytes": 1085,
-      "lines": 9
-    },
-    {
-      "path": "licenses/npm-node-gyp-ISC.txt",
-      "sha256": "8da13c785af46eb3d0bf2ce4c34bdf191b8c57bf43e410e9359d5b5eab5f4b0f",
-      "bytes": 746,
-      "lines": 7
-    },
-    {
-      "path": "licenses/npm-run-script-ISC.txt",
-      "sha256": "898c2bcff663681498ad1ca8235d45b6e70b10cdf1f869a5b5e69f6e46efedd3",
-      "bytes": 739,
-      "lines": 15
-    },
-    {
       "path": "pyproject.toml",
-      "sha256": "55efa766e833dfbfb5165332b45142eded4d34e1c9f71cdaa7d7e65579bf882d",
-      "bytes": 771,
+      "sha256": "051b8e2828a6c9c5730e7c58a26e273f31fa240df3fa949522cec73fbd3e2f69",
+      "bytes": 753,
       "lines": 30
     },
     {
@@ -129,7 +111,7 @@
     },
     {
       "path": "src/lifecycle_policy_review/__init__.py",
-      "sha256": "4ae698a1f9d03aaf9a32ebed5b3108340100f8633eb4d850bf34eeab7c346ca8",
+      "sha256": "dfc12932bc05449086def72bf3de333a119407f0d259c20830f2f3a16681a93f",
       "bytes": 177,
       "lines": 7
     },
@@ -213,5 +195,5 @@
     }
   ],
   "manifest_self_digest": "excluded",
-  "engineering_scope": "Source/package evidence; new hosted CI, applicant eligibility and provider approval are separate."
+  "engineering_scope": "Current local source/package evidence; exact-commit hosted CI and applicant/CVP approval are separate."
 }

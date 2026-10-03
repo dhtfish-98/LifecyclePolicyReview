@@ -1,7 +1,7 @@
 # LifecyclePolicyReview
 
 
-New implementation author: **dhtfish98**. Current project version: **0.1.1**.
+New implementation author: **dhtfish98**. Current project version: **0.1.2**.
 
 Offline **allow-scripts selected static policy reimplementation**. A byte-bounded,
 caller-supplied snapshot contains package.json objects, explicit instance paths,
@@ -86,7 +86,7 @@ python -m build --no-isolation
 
 CI tests source and a freshly installed wheel from another directory on Linux
 and macOS with Python3.11 and3.14. [VALIDATION.md](VALIDATION.md) separates observed
-checks from publication and unsupported claims. Source and notices use MIT terms;
-the complete upstream Consensys license is preserved in `licenses/`.
+checks from publication and unsupported claims. New source uses MIT terms. The fixed upstreams are design/metadata references only;
+no original upstream source or fixtures are packaged.
 
 Local-file capability boundary: required OS flags must be exact positive integers. Descriptor walking also requires declared `os.open` directory-relative support. Missing, null, zero, boolean or otherwise invalid required capabilities return a controlled OPEN result before file access. Native Windows local-file reading is outside this POSIX profile.

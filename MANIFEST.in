@@ -1,5 +1,4 @@
 include LICENSE NOTICE README.md DEFENSIVE_SCOPE.md VALIDATION.md SOURCE_REVIEW.json SOURCE_AUDIT.json requirements-dev.txt
-recursive-include licenses *.txt
 recursive-include tests *.py
 recursive-include scripts *.py
 recursive-include evidence *.json
@@ -19,9 +18,6 @@ include SOURCE_REVIEW_MANIFEST.json
 include VALIDATION.md
 include evidence/independent-review.json
 include evidence/snapshot.json
-include licenses/allow-scripts-MIT.txt
-include licenses/npm-node-gyp-ISC.txt
-include licenses/npm-run-script-ISC.txt
 include pyproject.toml
 include requirements-dev.txt
 include scripts/installed_cli_check.py
@@ -38,5 +34,5 @@ include src/lifecycle_policy_review/review.py
 include src/lifecycle_policy_review/schema.py
 include tests/fixtures.py
 include tests/test_io.py
-include tests/test_review.py
 include tests/test_reader_capabilities.py
+include tests/test_review.py

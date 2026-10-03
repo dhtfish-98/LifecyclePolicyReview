@@ -1,7 +1,9 @@
-LifecyclePolicyReview
-New offline allow-scripts selected static policy reimplementation by dhtfish98.
-Fixed source: LavaMoat/LavaMoat f93c7e60a7ed5c20b0ec1993604d293cb31a079a, selected packages/allow-scripts. Original copyright(c)2020 Consensys Software; complete MIT terms preserved.
-Additional metadata-only command-selection references: npm/run-script10.0.4 08ad35e66f0d09ed7a6b85b9a457e54859b70acd and npm/node-gyp5.0.0 201dddb853f8cf96b0d89e461ada6ee8fdf202a4. Complete original npm ISC notices preserved; no source vendored or run.
-Not a LavaMoat sandbox, upstream contribution or endorsement. Does not run target scripts or claim human review/CVP qualification.
+LifecyclePolicyReview 0.1.2
+Copyright 2026 dhtfish98. New implementation author and maintainer: dhtfish98.
+New source is licensed under MIT in LICENSE.
 
-New implementation copyright 2026 dhtfish98. Original upstream notices above are retained.
+LavaMoat/allow-scripts, npm/run-script 10.0.4 and npm/node-gyp 5.0.0 are fixed
+design/metadata references described in ORIGIN.md and SOURCE_REVIEW.json.
+No original source, package, fixture or document excerpt is distributed or run.
+The inert snapshot/test inputs are synthetic owner-project fixtures.
+No upstream endorsement, unaided human authorship or CVP approval is asserted.
