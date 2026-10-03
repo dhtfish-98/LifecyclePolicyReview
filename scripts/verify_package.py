@@ -9,6 +9,7 @@ import json
 import tarfile
 import tomllib
 import zipfile
+from email import policy
 from email.parser import BytesParser
 from pathlib import Path, PurePosixPath
 
@@ -56,7 +57,7 @@ def verify(project, installed):
         for name, raw in modules.items():
             assert archive.read(name) == raw
             assert (installed / name).read_bytes() == raw
-        description = BytesParser().parsebytes(
+        description = BytesParser(policy=policy.default).parsebytes(
             archive.read(
                 next(name for name in names if name.endswith(".dist-info/METADATA"))
             )

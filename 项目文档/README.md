@@ -1,3 +1,5 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # LifecyclePolicyReview
 
 
@@ -12,8 +14,8 @@ installs packages, walks node_modules, edits a policy or activates enforcement.
 
 This is new code by dhtfish98 based on a fully reviewed, fixed allow-scripts source
 subset. It is not a LavaMoat sandbox rewrite or an upstream contribution. See
-[SOURCE_REVIEW.json](SOURCE_REVIEW.json) for identities and scope, and
-[DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md) for the finite report contract.
+[SOURCE_REVIEW.json](<../SOURCE_REVIEW.json>) for identities and scope, and
+[DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>) for the finite report contract.
 
 ## Use
 
@@ -85,7 +87,7 @@ python -m build --no-isolation
 ```
 
 CI tests source and a freshly installed wheel from another directory on Linux
-and macOS with Python3.11 and3.14. [VALIDATION.md](VALIDATION.md) separates observed
+and macOS with Python3.11 and3.14. [VALIDATION.md](<VALIDATION.md>) separates observed
 checks from publication and unsupported claims. New source uses MIT terms. The fixed upstreams are design/metadata references only;
 no original upstream source or fixtures are packaged.
 
