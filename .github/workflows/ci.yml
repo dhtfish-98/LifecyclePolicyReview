@@ -25,7 +25,7 @@ jobs:
       - name: Fresh offline consumer and artifacts
         run: |
           python -m venv .install-check
-          .install-check/bin/python -m pip install --no-index --no-deps dist/lifecycle_policy_review-0.1.0-py3-none-any.whl
+          .install-check/bin/python -m pip install --no-index --no-deps dist/lifecycle_policy_review-0.1.1-py3-none-any.whl
           .install-check/bin/python -m pip check
           consumer="$PWD/.install-check/bin/python"
           project="$PWD"

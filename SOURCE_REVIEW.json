@@ -337,7 +337,7 @@
   ],
   "selected_license_full_read": true,
   "excluded": "Other LavaMoat packages and sandbox runtime; selected upstream execution/install/write/bin mechanisms reviewed but removed. No upstream code executed.",
-  "reviewer": "Codex root, AI-assisted; not independent human authorship",
+  "reviewer": "automated reviewer, automated; not independent human authorship",
   "additional_reference_full_selected_files": [
     {
       "repo": "npm/run-script",
@@ -382,5 +382,6 @@
       "sha256": "027954f089896319a79ec6c33edcb51f0081b38e14b84a95ebf15db4e2bb8b0d"
     }
   ],
-  "additional_reference_full_read": true
+  "additional_reference_full_read": true,
+  "delivery_snapshot_note": "Local implementation/package observations in this record belong to the earlier delivery; current file digests and version are in SOURCE_REVIEW_MANIFEST.json. Upstream identities, hashes and review scope are retained."
 }

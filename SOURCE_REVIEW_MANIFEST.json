@@ -1,0 +1,217 @@
+{
+  "schema": "current-formal-source-manifest/v1",
+  "project": "LifecyclePolicyReview",
+  "version": "0.1.1",
+  "new_implementation_author": "dhtfish98",
+  "new_implementation_maintainer": "dhtfish98",
+  "baseline_commit": "93420722273f5156667318e5dc462dcb1027abfc",
+  "runtime_review": "All own runtime files read; test files inspected for scope and executed. Upstream review remains bounded as stated in ORIGIN.md.",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "2cca0254e50c6c78869974b1038d2e24f2e1f766b870c80a066292667446906e",
+      "bytes": 1555,
+      "lines": 36
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "6c2fd72740dd2d920595ec3e6bff1555775306595f4cde93252fdf376e04cf2a",
+      "bytes": 104,
+      "lines": 10
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "b9a20547ddb957b0bc188e68482a1e288172e87c77536edee31d36957334be38",
+      "bytes": 4860,
+      "lines": 78
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "31930f53513ab59e8e0440fa885c6b4b498434cf6472ba1dd748aba05524807c",
+      "bytes": 1076,
+      "lines": 9
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "e3a729930b8a87ab21fcf7085a1b9ef8de437ec4b37af9ed8bb1417c51441a59",
+      "bytes": 1511,
+      "lines": 42
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "6c624d68c62e9f4c52463152a56cc3f2b1e301796303a02543e7366c6547e20d",
+      "bytes": 761,
+      "lines": 7
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "d40732bf5c54787e9af45c82e27abc6906e59f77fc56345dbb8c468456c572e4",
+      "bytes": 520,
+      "lines": 3
+    },
+    {
+      "path": "README.md",
+      "sha256": "0bb837dd614e4491c3bbd541144062873953363655538521b8d479a3d7b48775",
+      "bytes": 3795,
+      "lines": 92
+    },
+    {
+      "path": "SOURCE_AUDIT.json",
+      "sha256": "15c8611228bbeb26c95b0133e87a48af24df435b9420ad48d4a74ad06447a63f",
+      "bytes": 5732,
+      "lines": 168
+    },
+    {
+      "path": "SOURCE_REVIEW.json",
+      "sha256": "7197162517d2fd7aaf85f17a2ab9f306101b0dc555ec684e29c070e6b829b1d6",
+      "bytes": 14448,
+      "lines": 387
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "2836b37f65e63ef56bd84a16eed76cb31216ba5151e5d1f7e5d22f554bfc9485",
+      "bytes": 2796,
+      "lines": 38
+    },
+    {
+      "path": "evidence/independent-review.json",
+      "sha256": "ebc2dceaf145b23a0c91dc5824025c7e78f17b6a9b7509e35ebb5bd75e6afc20",
+      "bytes": 1277,
+      "lines": 26
+    },
+    {
+      "path": "evidence/snapshot.json",
+      "sha256": "bd61d7b621f83bb1938dba5b64de487cf90377efceee962c6b4c852a31b781ca",
+      "bytes": 502,
+      "lines": 26
+    },
+    {
+      "path": "licenses/allow-scripts-MIT.txt",
+      "sha256": "13d8f44e0cb7bece1bc47f038504b43cff9b95972428854d2c429a3d7d1a711c",
+      "bytes": 1085,
+      "lines": 9
+    },
+    {
+      "path": "licenses/npm-node-gyp-ISC.txt",
+      "sha256": "8da13c785af46eb3d0bf2ce4c34bdf191b8c57bf43e410e9359d5b5eab5f4b0f",
+      "bytes": 746,
+      "lines": 7
+    },
+    {
+      "path": "licenses/npm-run-script-ISC.txt",
+      "sha256": "898c2bcff663681498ad1ca8235d45b6e70b10cdf1f869a5b5e69f6e46efedd3",
+      "bytes": 739,
+      "lines": 15
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "55efa766e833dfbfb5165332b45142eded4d34e1c9f71cdaa7d7e65579bf882d",
+      "bytes": 771,
+      "lines": 30
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "8bf0543e181a4e53135e4ea8dcb0acdd22a116c5c250b6ccf82cc036cfd805cd",
+      "bytes": 99,
+      "lines": 6
+    },
+    {
+      "path": "scripts/installed_cli_check.py",
+      "sha256": "46cd0f216a9a33f580e953fcbfc90cf3c195890e61aed42db592d4afebc0f33e",
+      "bytes": 3524,
+      "lines": 109
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "sha256": "3fe6fa13cf3a34f9bb65e2f7325e78cb68bab58c1b06ac53e5d786b70f74876e",
+      "bytes": 4750,
+      "lines": 123
+    },
+    {
+      "path": "src/lifecycle_policy_review/__init__.py",
+      "sha256": "4ae698a1f9d03aaf9a32ebed5b3108340100f8633eb4d850bf34eeab7c346ca8",
+      "bytes": 177,
+      "lines": 7
+    },
+    {
+      "path": "src/lifecycle_policy_review/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48,
+      "lines": 3
+    },
+    {
+      "path": "src/lifecycle_policy_review/cli.py",
+      "sha256": "70ccf83c68b1a11cc2cddf5f621d3c48540c6b6b901104929167cc35189ecdbd",
+      "bytes": 1006,
+      "lines": 29
+    },
+    {
+      "path": "src/lifecycle_policy_review/entrypoints.py",
+      "sha256": "96a75449a435774197fe146d0a5d370d4e0dd25ca0edb334a5a2d74b1df61db5",
+      "bytes": 2647,
+      "lines": 64
+    },
+    {
+      "path": "src/lifecycle_policy_review/files.py",
+      "sha256": "b7bbb9cf851d236e90b8f69b20ca8eccdbb5910af6c9e9d34677c0bfab1530b1",
+      "bytes": 3024,
+      "lines": 81
+    },
+    {
+      "path": "src/lifecycle_policy_review/json_input.py",
+      "sha256": "ff9f6989f17bb626fe5505e682465d817928048a94aa61bc1926cf050f735880",
+      "bytes": 2883,
+      "lines": 86
+    },
+    {
+      "path": "src/lifecycle_policy_review/model.py",
+      "sha256": "456c3f2703bc2754955d463825e9f49f3125fee5b380f48eff1cbb4c25f1bdf3",
+      "bytes": 1698,
+      "lines": 68
+    },
+    {
+      "path": "src/lifecycle_policy_review/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "lines": 0
+    },
+    {
+      "path": "src/lifecycle_policy_review/review.py",
+      "sha256": "d195ee4e5ee9f89dd2ef239dd221dda9aa49bc7f7fc81d3a4a178b45e1f722e3",
+      "bytes": 4543,
+      "lines": 120
+    },
+    {
+      "path": "src/lifecycle_policy_review/schema.py",
+      "sha256": "3d78bd35289f642443a945f39246e65f870ddf81fdff8a60d20f386e0a8aa015",
+      "bytes": 3958,
+      "lines": 103
+    },
+    {
+      "path": "tests/fixtures.py",
+      "sha256": "86d63459abf69c67f3c12a4c5005f20914ac9979147670a249711f8168500533",
+      "bytes": 1078,
+      "lines": 45
+    },
+    {
+      "path": "tests/test_io.py",
+      "sha256": "5bacd9ada1fdf35dc1ecff4d04c29cacabf8492f6e2844a5b8777620840d8cf4",
+      "bytes": 3111,
+      "lines": 85
+    },
+    {
+      "path": "tests/test_reader_capabilities.py",
+      "sha256": "98b47a674b67ec7cf4fa0135db0aa8dc6f5afa6c41183d8de25283a1119f9bd1",
+      "bytes": 3543,
+      "lines": 78
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "beccbf2eb5c9a0b46d2ff4d879b5eb2631644b2c32b7ce06804a99246da0c35e",
+      "bytes": 13116,
+      "lines": 324
+    }
+  ],
+  "manifest_self_digest": "excluded",
+  "engineering_scope": "Source/package evidence; new hosted CI, applicant eligibility and provider approval are separate."
+}

@@ -4,3 +4,39 @@ recursive-include tests *.py
 recursive-include scripts *.py
 recursive-include evidence *.json
 recursive-include .github *.yml
+
+# Current formal source inventory, including provenance and tests.
+include .github/workflows/ci.yml
+include .gitignore
+include DEFENSIVE_SCOPE.md
+include LICENSE
+include NOTICE
+include ORIGIN.md
+include README.md
+include SOURCE_AUDIT.json
+include SOURCE_REVIEW.json
+include SOURCE_REVIEW_MANIFEST.json
+include VALIDATION.md
+include evidence/independent-review.json
+include evidence/snapshot.json
+include licenses/allow-scripts-MIT.txt
+include licenses/npm-node-gyp-ISC.txt
+include licenses/npm-run-script-ISC.txt
+include pyproject.toml
+include requirements-dev.txt
+include scripts/installed_cli_check.py
+include scripts/verify_package.py
+include src/lifecycle_policy_review/__init__.py
+include src/lifecycle_policy_review/__main__.py
+include src/lifecycle_policy_review/cli.py
+include src/lifecycle_policy_review/entrypoints.py
+include src/lifecycle_policy_review/files.py
+include src/lifecycle_policy_review/json_input.py
+include src/lifecycle_policy_review/model.py
+include src/lifecycle_policy_review/py.typed
+include src/lifecycle_policy_review/review.py
+include src/lifecycle_policy_review/schema.py
+include tests/fixtures.py
+include tests/test_io.py
+include tests/test_review.py
+include tests/test_reader_capabilities.py

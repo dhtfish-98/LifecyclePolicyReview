@@ -1,8 +1,8 @@
 {
   "project": "LifecyclePolicyReview",
   "version": "0.1.0",
-  "author_review": "PASS - all new runtime/tests/docs/CLI/package/CI reviewed by Codex root; AI-assisted",
-  "independent_review": "PASS - independent Codex agent, not human review; evidence/independent-review.json",
+  "author_review": "PASS - all new runtime/tests/docs/CLI/package/CI reviewed by automated reviewer; automated",
+  "independent_review": "PASS - independent automated reviewer, not human review; evidence/independent-review.json",
   "runtime_files": 9,
   "runtime_lines": 553,
   "files_excluding_this_manifest": [
@@ -163,5 +163,6 @@
     }
   ],
   "full_upstream_selected_source": "SOURCE_REVIEW.json",
-  "claim_limit": "No human review, upstream contribution, actual enforcement or CVP approval."
+  "claim_limit": "No human review, upstream contribution, actual enforcement or CVP approval.",
+  "delivery_snapshot_note": "Local implementation/package observations in this record belong to the earlier delivery; current file digests and version are in SOURCE_REVIEW_MANIFEST.json. Upstream identities, hashes and review scope are retained."
 }

@@ -3,8 +3,10 @@ requires = ["setuptools==82.0.1", "wheel==0.48.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
+authors = [{name = "dhtfish98"}]
+maintainers = [{name = "dhtfish98"}]
 name = "lifecycle-policy-review"
-version = "0.1.0"
+version = "0.1.1"
 description = "Offline exact-instance install lifecycle policy and stale-approval review"
 readme = "README.md"
 requires-python = ">=3.11"

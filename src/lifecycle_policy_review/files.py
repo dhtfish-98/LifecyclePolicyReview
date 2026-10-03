@@ -15,11 +15,19 @@ def read_snapshot(path):
         raise InputIssue("snapshot_path_invalid") from None
     if not encoded or len(encoded) > 8192 or b"\0" in encoded:
         raise InputIssue("snapshot_path_invalid")
+    required = ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK")
+    directory_capabilities = getattr(os, "supports_dir_fd", None)
+    directory_relative_open = (
+        isinstance(directory_capabilities, (set, frozenset))
+        and os.open in directory_capabilities
+    )
     if (
-        not all(
-            hasattr(os, name) for name in ("O_DIRECTORY", "O_NOFOLLOW", "O_NONBLOCK")
+        os.name != "posix"
+        or any(
+            type(getattr(os, flag, None)) is not int or getattr(os, flag) <= 0
+            for flag in required
         )
-        or os.open not in os.supports_dir_fd
+        or not directory_relative_open
     ):
         raise InputIssue("snapshot_reader_platform_open")
     components = path.split("/")

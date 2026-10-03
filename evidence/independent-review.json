@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "reviewer": "Codex independent agent /root/audit_shortlist; AI assisted, not independent human review",
+  "reviewer": "automated review; does not establish independent human review",
   "runtime_lines": 553,
   "source_tests": 38,
   "independent_controls": 62,

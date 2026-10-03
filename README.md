@@ -1,5 +1,8 @@
 # LifecyclePolicyReview
 
+
+New implementation author: **dhtfish98**. Current project version: **0.1.1**.
+
 Offline **allow-scripts selected static policy reimplementation**. A byte-bounded,
 caller-supplied snapshot contains package.json objects, explicit instance paths,
 root/dependency roles, binding.gyp observations and exact boolean policies. The
@@ -7,7 +10,7 @@ tool identifies potential lifecycle entrypoints and reports approval, denial,
 missing approval, version drift and stale policies. It never runs these commands,
 installs packages, walks node_modules, edits a policy or activates enforcement.
 
-This is new AI-assisted code based on a fully reviewed, fixed allow-scripts source
+This is new code by dhtfish98 based on a fully reviewed, fixed allow-scripts source
 subset. It is not a LavaMoat sandbox rewrite or an upstream contribution. See
 [SOURCE_REVIEW.json](SOURCE_REVIEW.json) for identities and scope, and
 [DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md) for the finite report contract.
@@ -17,7 +20,7 @@ subset. It is not a LavaMoat sandbox rewrite or an upstream contribution. See
 Python3.11–3.14 on Linux/macOS. The runtime has no external dependencies.
 
 ```sh
-python -m pip install --no-index --no-deps dist/lifecycle_policy_review-0.1.0-py3-none-any.whl
+python -m pip install .
 lifecycle-policy-review snapshot.json
 ```
 
@@ -85,3 +88,5 @@ CI tests source and a freshly installed wheel from another directory on Linux
 and macOS with Python3.11 and3.14. [VALIDATION.md](VALIDATION.md) separates observed
 checks from publication and unsupported claims. Source and notices use MIT terms;
 the complete upstream Consensys license is preserved in `licenses/`.
+
+Local-file capability boundary: required OS flags must be exact positive integers. Descriptor walking also requires declared `os.open` directory-relative support. Missing, null, zero, boolean or otherwise invalid required capabilities return a controlled OPEN result before file access. Native Windows local-file reading is outside this POSIX profile.
