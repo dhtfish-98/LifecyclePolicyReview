@@ -14,7 +14,7 @@ installs packages, walks node_modules, edits a policy or activates enforcement.
 
 This is new code by dhtfish98 based on a fully reviewed, fixed allow-scripts source
 subset. It is not a LavaMoat sandbox rewrite or an upstream contribution. See
-[SOURCE_REVIEW.json](<../SOURCE_REVIEW.json>) for identities and scope, and
+[SOURCE_REVIEW.json](<SOURCE_REVIEW.json>) for identities and scope, and
 [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>) for the finite report contract.
 
 ## Use
