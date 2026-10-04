@@ -8,6 +8,12 @@
   "runtime_review": "Current selected runtime read; behavior unchanged except version metadata. One auxiliary review role description corrected without asserting independent human authorship.",
   "files": [
     {
+      "path": "Build/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d",
+      "bytes": 14,
+      "lines": 2
+    },
+    {
       "path": ".github/workflows/ci.yml",
       "sha256": "4a5685bf320ac16fdd9164fa57634fa7ab9f32d88ad86418ac7d8d0b8dd3c941",
       "bytes": 2871,
