@@ -18,7 +18,7 @@
     {
       "original": "NOTICE",
       "stored": "项目文档/NOTICE",
-      "sha256": "bbb5abb1109cb7aaea18ba8e82827a0e4712be0c6a6a6c5689b8f517727faeab"
+      "sha256": "650043f5edaed66b4ba8a7d04faeee584f71b25f7db44fa82aaf8845e10ab545"
     },
     {
       "original": "ORIGIN.md",
@@ -28,12 +28,12 @@
     {
       "original": "README.md",
       "stored": "项目文档/README.md",
-      "sha256": "f44d0704a42996b2abbf6b28670ecd820db4c490ee2295235bd32cb85c948ac7"
+      "sha256": "0e201e12cb0c5634bc5eb1ec805593fa0c4bee53a88eb6516fe50f607881a121"
     },
     {
       "original": "VALIDATION.md",
       "stored": "项目文档/VALIDATION.md",
-      "sha256": "1b2ecf9099f1263e6c617aec7082785e3812618a5390af70f40ec37589b0171b"
+      "sha256": "2543d8c0bd2e54d6782dbd724465f6a547b24eb7192f339b02382d53a1637b59"
     }
   ],
   "platform_entries": []

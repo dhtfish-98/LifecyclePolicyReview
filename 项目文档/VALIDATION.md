@@ -1,3 +1,7 @@
+## Current release 0.1.4: package and documentation layout sync, 2026-10-05
+
+This patch release binds the current source and package metadata to the centralized 项目文档 and Build layout. Runtime behavior is unchanged from the previous main commit except version identifiers. The complete existing third-party licenses and provenance notices remain in scope. Historical tests below retain their original version and date; exact current build, installed-consumer and hosted-CI results are recorded separately with the release. CVP eligibility and applicant approval remain OPEN.
+
 # Current delivery validation — 0.1.3
 
 New implementation author and maintainer: dhtfish98. This patch replaces one auxiliary review role description with "Repository maintainer and automated review agent". It retains the statement that automated review does not establish independent human review. Source provenance, actual third-party rights and all parser/policy behavior are retained; runtime changes only advance version metadata.
